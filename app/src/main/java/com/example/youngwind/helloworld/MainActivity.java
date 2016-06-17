@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import java.nio.BufferUnderflowException;
+
 public class MainActivity extends AppCompatActivity {
 
     // 创建activity
@@ -40,6 +42,24 @@ public class MainActivity extends AppCompatActivity {
 
                 // 跳转到网页
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.baidu.com")));
+            }
+        });
+
+        findViewById(R.id.newActivityAndTransferParams).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                // 跳转到另一个activity,并且传递参数过去
+                Intent i = new Intent(MainActivity.this, AnotherAty.class);
+
+                // 组织复杂数据结构
+                Bundle b = new Bundle();
+                b.putString("name", "liangshaofeng");
+                b.putInt("age", 23);
+                i.putExtras(b);
+
+                startActivity(i);
+
             }
         });
     }

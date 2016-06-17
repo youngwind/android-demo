@@ -16,4 +16,10 @@
         android:text="打开一个网页"
         android:id="@+id/btnStartWWWPage" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动另一个Activity,并且传递参数过去"
+        android:id="@+id/newActivityAndTransferParams" />
+
 </LinearLayout>
