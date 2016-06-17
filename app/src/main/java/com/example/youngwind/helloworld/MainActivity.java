@@ -12,23 +12,33 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
 
-        // 绑定自定义视图,activity与视图layout的关系
-        // ?如何自定义activity
+        // 定义打开my_layout视图
         setContentView(R.layout.my_layout);
 
+        /**
+         * 给按btnStartAnotherAty添加点击事件
+         */
         findViewById(R.id.btnStartAnotherAty).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 // 跳转到另一个activity
                 startActivity(new Intent(MainActivity.this, AnotherAty.class));
+            }
+        });
+
+
+        /**
+         * 给按钮btnStartWWWPage添加点击事件
+         */
+        findViewById(R.id.btnStartWWWPage).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
                 // 跳转到网页
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.baidu.com")));
             }
         });
-
     }
 }
