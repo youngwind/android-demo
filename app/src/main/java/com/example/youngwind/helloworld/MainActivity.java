@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        System.out.println("A onCreate");
+
         // 定义打开my_layout视图
         setContentView(R.layout.my_layout);
 
@@ -45,36 +47,36 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        System.out.println("onStart");
+        System.out.println("A onStart");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        System.out.println("onResume");
+        System.out.println("A onResume");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        System.out.println("onPause");
+        System.out.println("A onPause");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        System.out.println("onStop");
+        System.out.println("A onStop");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        System.out.println("onDestroy");
+        System.out.println("A onDestroy");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        System.out.println("onRestart");
+        System.out.println("A onRestart");
     }
 }
