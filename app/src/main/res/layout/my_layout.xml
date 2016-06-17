@@ -22,4 +22,10 @@
         android:text="启动另一个Activity,并且传递参数过去"
         android:id="@+id/newActivityAndTransferParams" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hometown" />
+
+
 </LinearLayout>

@@ -11,4 +11,5 @@
 5. 文档查看 open ~/Library/Android/sdk/docs/index.html
 6. Activity之间跳转的时候各个Activity的生命周期是如何转换的
 (疑问:在Activity A打开网页,观察到Activity A会进入onPause和onStop周期)
-7. Activity之间传递数据(简单数据, 复杂数据)
+7. Activity A打开Activity B,并且同时给Activity B传参数(复杂数据结构参数bundle)
+8. Activity A打开Activity B, Activity B返回数据给Activity A (startActivityForResult)

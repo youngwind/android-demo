@@ -5,10 +5,13 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import java.nio.BufferUnderflowException;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView homeTown;
 
     // 创建activity
     @Override
@@ -19,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         // 定义打开my_layout视图
         setContentView(R.layout.my_layout);
+
+        homeTown = (TextView) findViewById(R.id.hometown);
 
         /**
          * 给按btnStartAnotherAty添加点击事件
@@ -58,10 +63,29 @@ public class MainActivity extends AppCompatActivity {
                 b.putInt("age", 23);
                 i.putExtras(b);
 
-                startActivity(i);
+                // 一般的打开新activity
+                //startActivity(i);
+
+                // 打开新activity,并且监听返回值
+                startActivityForResult(i, 1);
 
             }
         });
+
+
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        // requestCode 为请求码,代表此activity要请求的数据的意义
+        // resultCode 为返回码,代表后一个activity给此activity返回数据的状态码
+        // 这里务必要进行if判断,否则用户直接点击回退的时候,会因为data为空而报错
+        if (requestCode == 1 && resultCode == 200) {
+            homeTown.setText("另一个activity返回的数据是:" + data.getStringExtra("data"));
+        }
     }
 
     @Override
