@@ -87,6 +87,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 打开RecyclerView列表
+        findViewById(R.id.showRecyclerView).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LearnRecyclerView.class));
+            }
+        });
+
     }
 
 

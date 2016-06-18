@@ -28,4 +28,6 @@
 13. AIDL 进程之间相互访问(暂时没用,不深入)
 
 ## 2. UI部分
-1. 基本布局方式(等分,自适应)
+1. 基本布局方式(等分,自适应),layout:linearLayout, RelativeLayout, frameLayout等等
+2. 直接用代码操作view,添加删除元素,就像js直接操作DOM一样
+3. 学习使用RecyclerView(代替listView列表,非常重要)

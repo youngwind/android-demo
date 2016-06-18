@@ -39,4 +39,10 @@
         android:text="启动另一个Activity,展示如何直接操作View"
         android:id="@+id/operateView" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动另一个Activity,展示RecyclerView列表的用法"
+        android:id="@+id/showRecyclerView" />
+
 </LinearLayout>
