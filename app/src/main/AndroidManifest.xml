@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AnotherAty" />
-        <activity android:name=".BasicLayout"></activity>
+        <activity android:name=".BasicLayout" />
+        <activity android:name=".OperateView"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

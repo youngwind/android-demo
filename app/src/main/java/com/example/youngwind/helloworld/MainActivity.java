@@ -1,6 +1,7 @@
 package com.example.youngwind.helloworld;
 
 import android.content.Intent;
+import android.graphics.Path;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -78,6 +79,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 打开代码操作view的activity
+        findViewById(R.id.operateView).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, OperateView.class));
+            }
+        });
 
     }
 
