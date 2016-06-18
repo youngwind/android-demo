@@ -45,4 +45,10 @@
         android:text="启动另一个Activity,展示RecyclerView列表的用法"
         android:id="@+id/showRecyclerView" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动另一个Activity,展示进程与异步调用"
+        android:id="@+id/threadAndAsyncTask" />
+
 </LinearLayout>

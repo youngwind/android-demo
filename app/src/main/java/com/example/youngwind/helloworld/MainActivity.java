@@ -95,6 +95,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 打开进程与异步调用
+        findViewById(R.id.threadAndAsyncTask).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ThreadAndAsyncTask.class));
+            }
+        });
+
     }
 
 

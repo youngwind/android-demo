@@ -18,7 +18,8 @@
         <activity android:name=".AnotherAty" />
         <activity android:name=".BasicLayout" />
         <activity android:name=".OperateView" />
-        <activity android:name=".LearnRecyclerView"></activity>
+        <activity android:name=".LearnRecyclerView" />
+        <activity android:name=".ThreadAndAsyncTask"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->
