@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnotherAty"></activity>
+        <activity android:name=".AnotherAty" />
+        <activity android:name=".BasicLayout"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

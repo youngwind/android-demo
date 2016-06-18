@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import java.nio.BufferUnderflowException;
-
 public class MainActivity extends AppCompatActivity {
 
     private TextView homeTown;
@@ -69,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
                 // 打开新activity,并且监听返回值
                 startActivityForResult(i, 1);
 
+            }
+        });
+
+        // 打开基本布局activity
+        findViewById(R.id.btnStartBasicLayout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, BasicLayout.class));
             }
         });
 
