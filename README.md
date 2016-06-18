@@ -1,5 +1,6 @@
 # 项目说明
 本项目用于个人学习Android的demo
+![demo.gif](./demo.gif)
 
 # 进度
 1. 环境搭建,Android Studio的使用
@@ -13,3 +14,12 @@
 (疑问:在Activity A打开网页,观察到Activity A会进入onPause和onStop周期)
 7. Activity A打开Activity B,并且同时给Activity B传参数(复杂数据结构参数bundle)
 8. Activity A打开Activity B, Activity B返回数据给Activity A (startActivityForResult)
+9. 任务栈task与Activity的关系:一个task其实是一个Activity的集合栈,在一般方式下前进后退就相当于入栈出栈.
+(疑问:这个就跟hybrid很像的,我觉得hybrid里面页面的跳转绝壁是通过这种方式,这点有待验证)
+(PS:对于task和activity的调度关系,有一些特殊情况,具体可以参考这里:http://blog.csdn.net/zhangjg_blog/article/details/10923643)
+10. Intent的详解  http://www.cnblogs.com/smyhvae/p/3959204.html (此处有很多实例,有待抄袭)
+11. Context的理解 http://www.cnblogs.com/smyhvae/p/3959204.html (此处较为高级,目前用不到,先不予理会)
+12. service的理解 http://blog.csdn.net/u011067360/article/details/24523491  
+(比如底层发送网络请求应该就是这货,这里需要深入研究)
+(感悟:安卓开发与前端开发很不一样,前端开发从来不会越过浏览器去跟系统级服务打交道)
+13. AIDL 进程之间相互访问(暂时没用,不深入)

@@ -25,7 +25,9 @@ public class AnotherAty extends AppCompatActivity {
         Intent i = getIntent();
         Bundle data = i.getExtras();
 
-        tv.setText(String.format("name=%s, age=%d", data.getString("name"), data.getInt("age")));
+        if (data != null) {
+            tv.setText(String.format("name=%s, age=%d", data.getString("name"), data.getInt("age")));
+        }
 
 
         // 返回数据给上一个activity
