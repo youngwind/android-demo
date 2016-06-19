@@ -51,4 +51,10 @@
         android:text="启动另一个Activity,展示进程与异步调用"
         android:id="@+id/threadAndAsyncTask" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动另一个Activity,展示如何发起get请求"
+        android:id="@+id/StartHttpGet" />
+
 </LinearLayout>

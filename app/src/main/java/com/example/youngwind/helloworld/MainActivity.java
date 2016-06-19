@@ -103,6 +103,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 打开网络请求Get
+        findViewById(R.id.StartHttpGet).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, HttpRequest.class));
+            }
+        });
+
     }
 
 
