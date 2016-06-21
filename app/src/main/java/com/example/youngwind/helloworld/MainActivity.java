@@ -111,6 +111,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 打开android-async-http库的使用
+        findViewById(R.id.showAsyncHttp).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, AsyncHttp.class));
+            }
+        });
+
     }
 
 
