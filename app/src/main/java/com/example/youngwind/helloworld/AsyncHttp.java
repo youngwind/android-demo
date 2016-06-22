@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
@@ -24,7 +26,7 @@ public class AsyncHttp extends AppCompatActivity {
         findViewById(R.id.startGetRequest).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                asynhttpGet("http://www.baidu.com");
+                asynhttpGet("http://172.24.28.97:3000/test");
             }
         });
     }
@@ -39,6 +41,9 @@ public class AsyncHttp extends AppCompatActivity {
                 System.out.println(headers);
                 System.out.println(new String(responseBody));
                 getResponse.setText(new String(responseBody));
+                JSONArray array = JSON.parseArray(new String(responseBody));
+                System.out.print(array);
+                
             }
 
             @Override
