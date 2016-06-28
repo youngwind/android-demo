@@ -1,10 +1,14 @@
+// 声明是Android程序
 apply plugin: 'com.android.application'
 
 android {
+    // 编译SDK版本
     compileSdkVersion 24
+    // build tools的版本
     buildToolsVersion "24.0.0"
 
     defaultConfig {
+        // 应用的包名
         applicationId "com.example.youngwind.helloworld"
         minSdkVersion 15
         targetSdkVersion 24
@@ -13,13 +17,20 @@ android {
     }
     buildTypes {
         release {
+            // 是否进行混淆
             minifyEnabled false
+            // 混淆文件的位置
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    // 移除lint检查的error
+    lintOptions {
+        abortOnError false
     }
 }
 
 dependencies {
+    // 编译libs目录下的所有jar包
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'

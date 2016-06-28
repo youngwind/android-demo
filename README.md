@@ -44,3 +44,8 @@ http://blog.csdn.net/iispring/article/details/51474529
 
 ## 4. WebView
 1. 学习使用webview装载一个网页
+
+
+## 5. 其他
+1. gradle的使用 http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/
+2. 安装电脑上apk包 http://www.dbform.com/html/2012/1807.html  platform-tools路径: /Users/youngwind/Library/Android/sdk/platform-tools/
