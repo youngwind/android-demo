@@ -119,6 +119,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // 打开webview
+        findViewById(R.id.openWebView).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TestWebView.class));
+            }
+        });
     }
 
 

@@ -23,7 +23,8 @@
         <activity android:name=".LearnRecyclerView" />
         <activity android:name=".ThreadAndAsyncTask" />
         <activity android:name=".HttpRequest" />
-        <activity android:name=".AsyncHttp"></activity>
+        <activity android:name=".AsyncHttp" />
+        <activity android:name=".TestWebView"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->
