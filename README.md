@@ -48,4 +48,10 @@ http://blog.csdn.net/iispring/article/details/51474529
 
 ## 5. 其他
 1. gradle的使用 http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/
-2. 安装电脑上apk包 http://www.dbform.com/html/2012/1807.html  platform-tools路径: /Users/youngwind/Library/Android/sdk/platform-tools/
+2. apk打包 
+```
+./gradlew -v
+./gradlew clean
+./gradlew build
+```
+3. 安装电脑上apk包 http://www.dbform.com/html/2012/1807.html  platform-tools路径: /Users/youngwind/Library/Android/sdk/platform-tools/
