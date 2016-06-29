@@ -3,76 +3,94 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity"
-        android:id="@+id/btnStartAnotherAty" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity"
+                android:id="@+id/btnStartAnotherAty" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="打开一个网页"
-        android:id="@+id/btnStartWWWPage" />
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打开一个网页"
+                android:id="@+id/btnStartWWWPage" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,并且传递参数过去"
-        android:id="@+id/newActivityAndTransferParams" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,并且传递参数过去"
+                android:id="@+id/newActivityAndTransferParams" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/hometown" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hometown" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,展示基本布局方式"
-        android:id="@+id/btnStartBasicLayout"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,展示基本布局方式"
+                android:id="@+id/btnStartBasicLayout"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,展示如何直接操作View"
-        android:id="@+id/operateView" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,展示如何直接操作View"
+                android:id="@+id/operateView" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,展示RecyclerView列表的用法"
-        android:id="@+id/showRecyclerView" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,展示RecyclerView列表的用法"
+                android:id="@+id/showRecyclerView" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,展示进程与异步调用"
-        android:id="@+id/threadAndAsyncTask" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,展示进程与异步调用"
+                android:id="@+id/threadAndAsyncTask" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,展示如何发起get请求"
-        android:id="@+id/StartHttpGet" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,展示如何发起get请求"
+                android:id="@+id/StartHttpGet" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="启动另一个Activity,展示asycn-http库的用法"
-        android:id="@+id/showAsyncHttp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动另一个Activity,展示asycn-http库的用法"
+                android:id="@+id/showAsyncHttp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="打开webview"
-        android:id="@+id/openWebView" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打开webview"
+                android:id="@+id/openWebView" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="弹出系统toast"
-        android:id="@+id/showToast" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="弹出系统toast"
+                android:id="@+id/showToast" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="展示JSBridge"
+                android:id="@+id/showJSBridge" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 </LinearLayout>

@@ -135,6 +135,15 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "弹出系统提示消息", Toast.LENGTH_LONG).show();
             }
         });
+
+
+        // 打开测试JSBridge的activity
+        findViewById(R.id.showJSBridge).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TestJSBridge.class));
+            }
+        });
     }
 
 

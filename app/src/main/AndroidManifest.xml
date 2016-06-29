@@ -24,7 +24,8 @@
         <activity android:name=".ThreadAndAsyncTask" />
         <activity android:name=".HttpRequest" />
         <activity android:name=".AsyncHttp" />
-        <activity android:name=".TestWebView"></activity>
+        <activity android:name=".TestWebView" />
+        <activity android:name=".TestJSBridge"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->
