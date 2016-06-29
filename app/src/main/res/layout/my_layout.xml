@@ -69,4 +69,10 @@
         android:text="打开webview"
         android:id="@+id/openWebView" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹出系统toast"
+        android:id="@+id/showToast" />
+
 </LinearLayout>

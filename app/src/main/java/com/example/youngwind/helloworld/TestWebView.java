@@ -4,6 +4,7 @@ import android.content.pm.ApplicationInfo;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -21,6 +22,10 @@ public class TestWebView extends AppCompatActivity {
         }
 
         WebView myWebView = (WebView) findViewById(R.id.myWebView);
+
+        // webview启用javascript
+        WebSettings webSettings = myWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
 
         // 控制webview中的网页跳转依然在webview中打开
         myWebView.setWebViewClient(new WebViewClient());
