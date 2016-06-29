@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView homeTown;
@@ -136,12 +138,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        // 打开测试JSBridge的activity
-        findViewById(R.id.showJSBridge).setOnClickListener(new View.OnClickListener() {
+        // 打开使用javascriptInterface的jsbridge
+        findViewById(R.id.showJSInterfaceBridge).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, TestJSBridge.class));
+                startActivity(new Intent(MainActivity.this, JavaScriptInterface.class));
             }
         });
     }

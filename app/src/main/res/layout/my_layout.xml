@@ -85,11 +85,12 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="展示JSBridge"
-                android:id="@+id/showJSBridge" />
+                android:text="使用jsInterfaceBridge"
+                android:textAllCaps="false"
+                android:id="@+id/showJSInterfaceBridge" />
         </LinearLayout>
-
     </ScrollView>
+
 
 
 

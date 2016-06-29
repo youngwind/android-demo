@@ -25,7 +25,7 @@
         <activity android:name=".HttpRequest" />
         <activity android:name=".AsyncHttp" />
         <activity android:name=".TestWebView" />
-        <activity android:name=".TestJSBridge"></activity>
+        <activity android:name=".JSBridgeJavaScriptInterface.JavaScriptInterface"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

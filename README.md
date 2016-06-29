@@ -46,6 +46,7 @@ http://blog.csdn.net/iispring/article/details/51474529
 1. 学习使用webview装载一个网页
 2. 启用javascript
 3. 学习用java弹出系统提示消息:toast
+4. 学习使用addJavascriptInterface建立jsBridge
 
 
 ## 5. 其他

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>利用javaScriptInterface建立jsbridge</title>
+
+</head>
+<body>
+<button id="test">点我toast</button>
+<script src="file:///android_asset/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+        $(document).on('click','#test',function(){
+            YWJS.toast("利用javaScriptInterface建立jsbridge");
+        })
+
+</script>
+</body>
+</html>
