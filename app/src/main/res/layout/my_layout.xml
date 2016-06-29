@@ -88,6 +88,13 @@
                 android:text="使用jsInterfaceBridge"
                 android:textAllCaps="false"
                 android:id="@+id/showJSInterfaceBridge" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用自定义URL建立JSBridge"
+                android:textAllCaps="false"
+                android:id="@+id/showCustomURLBridge" />
         </LinearLayout>
     </ScrollView>
 

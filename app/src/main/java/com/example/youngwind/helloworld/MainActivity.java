@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
 
 public class MainActivity extends AppCompatActivity {
@@ -143,6 +144,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, JavaScriptInterface.class));
+            }
+        });
+
+        // 打开自定义URL建立的jsBridge
+        findViewById(R.id.showCustomURLBridge).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, JSBridgeCustomURL.class));
             }
         });
     }
