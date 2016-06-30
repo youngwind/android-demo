@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
 import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
 
@@ -152,6 +153,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, JSBridgeCustomURL.class));
+            }
+        });
+
+        // 打开JSAlert建立的jsBridge
+        findViewById(R.id.showJSAlertBridge).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, JSBridgeAlert.class));
             }
         });
     }

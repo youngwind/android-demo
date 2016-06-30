@@ -48,6 +48,7 @@ http://blog.csdn.net/iispring/article/details/51474529
 3. 学习用java弹出系统提示消息:toast
 4. 学习使用addJavascriptInterface建立jsBridge
 5. 学习使用自定义URL建立jsBridge
+6. 学习使用jsAlert建立jsBridge
 
 
 ## 5. 其他
