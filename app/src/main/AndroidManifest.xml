@@ -17,7 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnotherAty" />
+        <activity
+            android:name=".AnotherAty"
+            android:label="另一个Activity"
+            android:windowSoftInputMode="stateVisible|adjustPan" />
         <activity android:name=".BasicLayout" />
         <activity android:name=".OperateView" />
         <activity android:name=".LearnRecyclerView" />
@@ -27,7 +30,8 @@
         <activity android:name=".TestWebView" />
         <activity android:name=".JSBridgeJavaScriptInterface.JavaScriptInterface" />
         <activity android:name=".JSBridgeCustomURL.JSBridgeCustomURL" />
-        <activity android:name=".JSBridgeAlert.JSBridgeAlert"></activity>
+        <activity android:name=".JSBridgeAlert.JSBridgeAlert" />
+        <activity android:name=".BasicUIWidget"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->
