@@ -3,6 +3,7 @@
     package="com.example.youngwind.helloworld">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -33,7 +34,8 @@
         <activity android:name=".JSBridgeAlert.JSBridgeAlert" />
         <activity
             android:name=".BasicUIWidget"
-            android:windowSoftInputMode="stateVisible|adjustPan"></activity>
+            android:windowSoftInputMode="stateVisible|adjustPan" />
+        <activity android:name=".Broadcast.ListenNetWork"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.youngwind.helloworld.Broadcast.ListenNetWork;
 import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
 import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
@@ -169,6 +170,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, BasicUIWidget.class));
+            }
+        });
+
+        // 打开监听系统网络状态
+        findViewById(R.id.showListenNetwork).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ListenNetWork.class));
             }
         });
     }

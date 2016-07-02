@@ -112,6 +112,12 @@
                 android:layout_height="wrap_content"
                 android:text="基本UI控件的使用" />
 
+            <Button
+                android:id="@+id/showListenNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="监听系统网络状态" />
+
         </LinearLayout>
     </ScrollView>
 

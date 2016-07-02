@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.youngwind.helloworld.Broadcast.ListenNetWork">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="此Activity监听系统广播中的网络状态,当你开关网络的时候会看到提示.网络监测需要一点时间,请耐心等待几秒钟" />
+
+</LinearLayout>

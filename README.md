@@ -3,6 +3,10 @@
 
 ![demo.gif](./demo.gif)
 
+
+最新的demo可以扫下面的二维码安装测试包
+![测试包](./demo-qr.png)
+
 # 进度
 
 ## 1. 原理概念
@@ -51,8 +55,10 @@ http://blog.csdn.net/iispring/article/details/51474529
 5. 学习使用自定义URL建立jsBridge
 6. 学习使用jsAlert建立jsBridge
 
+## 5. 广播机制
+1. 学习动态接受系统广播(以网络变化为例)
 
-## 5. 其他
+## 6. 其他
 1. gradle的使用 http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/
 2. apk打包 
 ```
