@@ -5,6 +5,7 @@
 
 
 最新的demo可以扫下面的二维码安装测试包
+
 ![测试包](./demo-qr.png)
 
 # 进度
@@ -58,7 +59,10 @@ http://blog.csdn.net/iispring/article/details/51474529
 ## 5. 广播机制
 1. 学习动态接受系统广播(以网络变化为例)
 
-## 6. 其他
+## 6. 存储
+1. 学习对文件进行存储和读取
+
+## 7. 其他
 1. gradle的使用 http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/
 2. apk打包 
 ```
@@ -67,3 +71,6 @@ http://blog.csdn.net/iispring/article/details/51474529
 ./gradlew build
 ```
 3. 安装电脑上apk包 http://www.dbform.com/html/2012/1807.html  platform-tools路径: /Users/youngwind/Library/Android/sdk/platform-tools/
+4. 学习使用adb shell 进入手机系统,使用su和cat查看手机文件 
+http://www.eoeandroid.com/thread-310228-1-1.html 
+http://zmywly8866.github.io/2015/01/24/all-adb-command.html

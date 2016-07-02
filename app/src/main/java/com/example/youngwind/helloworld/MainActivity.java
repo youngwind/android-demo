@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.youngwind.helloworld.Broadcast.ListenNetWork;
+import com.example.youngwind.helloworld.FileStorage.FileStorage;
 import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
 import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
@@ -178,6 +179,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ListenNetWork.class));
+            }
+        });
+
+        // 打开文件存储
+        findViewById(R.id.showFileStorage).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, FileStorage.class));
             }
         });
     }
