@@ -31,6 +31,7 @@
 1. 基本布局方式(等分,自适应),layout:linearLayout, RelativeLayout, frameLayout等等
 2. 直接用代码操作view,添加删除元素,就像js直接操作DOM一样
 3. 学习使用RecyclerView(代替listView列表,非常重要)
+4. 学习使用基本UI控件(特别是ImageView,ProgressBar,AlertDialog,ProgressDialog)附带定时器的使用
 
 
 ## 3. 网络通信

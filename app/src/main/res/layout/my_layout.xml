@@ -105,6 +105,13 @@
                 android:layout_height="wrap_content"
                 android:text="使用JSAlert建立JSBridge"
                 android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/showBasicUIWidget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基本UI控件的使用" />
+
         </LinearLayout>
     </ScrollView>
 

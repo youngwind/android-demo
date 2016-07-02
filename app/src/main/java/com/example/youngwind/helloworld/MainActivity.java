@@ -163,6 +163,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, JSBridgeAlert.class));
             }
         });
+
+        // 打开基本UI控件
+        findViewById(R.id.showBasicUIWidget).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, BasicUIWidget.class));
+            }
+        });
     }
 
 

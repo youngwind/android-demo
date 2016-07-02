@@ -31,7 +31,9 @@
         <activity android:name=".JSBridgeJavaScriptInterface.JavaScriptInterface" />
         <activity android:name=".JSBridgeCustomURL.JSBridgeCustomURL" />
         <activity android:name=".JSBridgeAlert.JSBridgeAlert" />
-        <activity android:name=".BasicUIWidget"></activity>
+        <activity
+            android:name=".BasicUIWidget"
+            android:windowSoftInputMode="stateVisible|adjustPan"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->
