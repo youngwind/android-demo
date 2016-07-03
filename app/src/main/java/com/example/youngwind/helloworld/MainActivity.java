@@ -1,7 +1,6 @@
 package com.example.youngwind.helloworld;
 
 import android.content.Intent;
-import android.graphics.Path;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +10,8 @@ import android.widget.Toast;
 
 import com.example.youngwind.helloworld.Broadcast.ListenNetWork;
 import com.example.youngwind.helloworld.FileStorage.FileStorage;
+import com.example.youngwind.helloworld.HttpRequest.AsyncHttp;
+import com.example.youngwind.helloworld.HttpRequest.HttpRequest;
 import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
 import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;

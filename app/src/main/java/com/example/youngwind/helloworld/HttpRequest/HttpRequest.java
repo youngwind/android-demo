@@ -1,10 +1,12 @@
-package com.example.youngwind.helloworld;
+package com.example.youngwind.helloworld.HttpRequest;
 
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.youngwind.helloworld.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;

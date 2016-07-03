@@ -45,7 +45,6 @@ public class ThreadAndAsyncTask extends AppCompatActivity {
                         try {
                             sleep(3000);
 
-                            // 这里要加looper的原因是因为子线程不能更改UI
                             // Looper更多的用法有待研究
                             Looper.prepare();
                             Toast.makeText(mContext, "3s过去啦", Toast.LENGTH_SHORT).show();

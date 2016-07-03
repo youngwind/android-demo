@@ -1,18 +1,17 @@
-package com.example.youngwind.helloworld;
+package com.example.youngwind.helloworld.HttpRequest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONArray;
+import com.example.youngwind.helloworld.R;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import cz.msebera.android.httpclient.Header;
 
+// 使用android-async-http库
 public class AsyncHttp extends AppCompatActivity {
 
     private TextView getResponse;
@@ -26,7 +25,7 @@ public class AsyncHttp extends AppCompatActivity {
         findViewById(R.id.startGetRequest).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                asynhttpGet("http://172.24.28.97:3000/test");
+                asynhttpGet("http://www.baidu.com");
             }
         });
     }
@@ -36,14 +35,7 @@ public class AsyncHttp extends AppCompatActivity {
         client.get(url, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-//                Toast.makeText(AsyncHttp.this, responseBody,Toast.LENGTH_LONG);
-                System.out.println(statusCode);
-                System.out.println(headers);
-                System.out.println(new String(responseBody));
                 getResponse.setText(new String(responseBody));
-                JSONArray array = JSON.parseArray(new String(responseBody));
-                System.out.print(array);
-                
             }
 
             @Override

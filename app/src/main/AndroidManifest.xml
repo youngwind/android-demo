@@ -26,8 +26,8 @@
         <activity android:name=".OperateView" />
         <activity android:name=".LearnRecyclerView" />
         <activity android:name=".ThreadAndAsyncTask" />
-        <activity android:name=".HttpRequest" />
-        <activity android:name=".AsyncHttp" />
+        <activity android:name=".HttpRequest.HttpRequest" />
+        <activity android:name=".HttpRequest.AsyncHttp" />
         <activity android:name=".TestWebView" />
         <activity android:name=".JSBridgeJavaScriptInterface.JavaScriptInterface" />
         <activity android:name=".JSBridgeCustomURL.JSBridgeCustomURL" />

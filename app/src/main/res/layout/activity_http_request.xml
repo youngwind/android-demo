@@ -8,13 +8,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".HttpRequest">
+    tools:context=".HttpRequest.HttpRequest">
 
     <Button
         android:id="@+id/httpGet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="点我发起http get请求" />
+        android:text="点我请求百度首页(GET)" />
 
     <ScrollView
         android:layout_width="fill_parent"
