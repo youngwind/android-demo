@@ -36,7 +36,8 @@
             android:name=".BasicUIWidget"
             android:windowSoftInputMode="stateVisible|adjustPan" />
         <activity android:name=".Broadcast.ListenNetWork" />
-        <activity android:name=".FileStorage.FileStorage"></activity>
+        <activity android:name=".FileStorage.FileStorage" />
+        <activity android:name=".SendNotification"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

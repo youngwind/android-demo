@@ -189,6 +189,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, FileStorage.class));
             }
         });
+
+        // 打开发送通知
+        findViewById(R.id.useNotification).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SendNotification.class));
+            }
+        });
     }
 
 

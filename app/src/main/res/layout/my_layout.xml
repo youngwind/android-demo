@@ -124,6 +124,12 @@
                 android:layout_height="wrap_content"
                 android:text="文件读写操作" />
 
+            <Button
+                android:id="@+id/useNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="通知栏的使用" />
+
         </LinearLayout>
     </ScrollView>
 
