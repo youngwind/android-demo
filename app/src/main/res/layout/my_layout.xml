@@ -130,6 +130,12 @@
                 android:layout_height="wrap_content"
                 android:text="通知栏的使用" />
 
+            <Button
+                android:id="@+id/useSQLite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SQLite数据的使用" />
+
         </LinearLayout>
     </ScrollView>
 

@@ -37,7 +37,8 @@
             android:windowSoftInputMode="stateVisible|adjustPan" />
         <activity android:name=".Broadcast.ListenNetWork" />
         <activity android:name=".FileStorage.FileStorage" />
-        <activity android:name=".SendNotification"></activity>
+        <activity android:name=".SendNotification" />
+        <activity android:name=".SQLite.DataBaseTest"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

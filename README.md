@@ -62,6 +62,7 @@ http://blog.csdn.net/iispring/article/details/51474529
 
 ## 6. 存储
 1. 学习对文件进行存储和读取
+2. 学习创建数据库(未完成, 卡在sqlite3命令上,权限问题有待解决)
 
 ## 7. 其他
 1. gradle的使用 http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/

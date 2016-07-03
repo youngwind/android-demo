@@ -14,6 +14,7 @@ import com.example.youngwind.helloworld.FileStorage.FileStorage;
 import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
 import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
+import com.example.youngwind.helloworld.SQLite.DataBaseTest;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -195,6 +196,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SendNotification.class));
+            }
+        });
+
+        // 打开数据库
+        findViewById(R.id.useSQLite).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, DataBaseTest.class));
             }
         });
     }
