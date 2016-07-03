@@ -38,7 +38,8 @@
         <activity android:name=".Broadcast.ListenNetWork" />
         <activity android:name=".FileStorage.FileStorage" />
         <activity android:name=".SendNotification" />
-        <activity android:name=".SQLite.DataBaseTest"></activity>
+        <activity android:name=".SQLite.DataBaseTest" />
+        <activity android:name=".ThreadTask.ThreadChangeUI"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

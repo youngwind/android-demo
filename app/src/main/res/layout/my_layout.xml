@@ -59,7 +59,13 @@
                 android:id="@+id/threadAndAsyncTask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="启动另一个Activity,展示进程与异步调用" />
+                android:text="主进程与子进程" />
+
+            <Button
+                android:id="@+id/threadChangeUI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="子进程更改UI" />
 
             <Button
                 android:id="@+id/StartHttpGet"

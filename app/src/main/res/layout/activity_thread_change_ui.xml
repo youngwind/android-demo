@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.youngwind.helloworld.ThreadTask.ThreadChangeUI">
+
+    <Button
+        android:id="@+id/changeUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过子线程更改UI" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="观察我的变化" />
+
+
+</LinearLayout>

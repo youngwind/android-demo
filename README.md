@@ -41,12 +41,11 @@
 
 
 ## 3. 网络通信
-1. 多线程(new thread),异步编程(为第2点做好准备)
-2. 如何用原生的asyncTask和connection发起http get请求?(很重要)
+1. 如何用原生的asyncTask和connection发起http get请求?(很重要)
 两种方式:HttpURLConnection vs DefaultHttpClient,区别与联系
 http://blog.csdn.net/iispring/article/details/51474529
-3. 学习如何使用第三方网络库请求网络请求(Android-async-http vs Volley)
-4. 学习如何解析json数据
+2. 学习如何使用第三方网络库请求网络请求(Android-async-http vs Volley)
+3. 学习如何解析json数据
 
 
 ## 4. WebView
@@ -63,6 +62,10 @@ http://blog.csdn.net/iispring/article/details/51474529
 ## 6. 存储
 1. 学习对文件进行存储和读取
 2. 学习创建数据库(未完成, 卡在sqlite3命令上,权限问题有待解决)
+
+## 7. 服务
+1. 使用子进程进行耗时操作
+2. 在子进程中更改UI
 
 ## 7. 其他
 1. gradle的使用 http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/

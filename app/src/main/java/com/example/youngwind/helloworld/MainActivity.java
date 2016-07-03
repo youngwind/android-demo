@@ -15,6 +15,7 @@ import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
 import com.example.youngwind.helloworld.JSBridgeCustomURL.JSBridgeCustomURL;
 import com.example.youngwind.helloworld.JSBridgeJavaScriptInterface.JavaScriptInterface;
 import com.example.youngwind.helloworld.SQLite.DataBaseTest;
+import com.example.youngwind.helloworld.ThreadTask.ThreadChangeUI;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -108,6 +109,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, ThreadAndAsyncTask.class));
+            }
+        });
+
+        // 子线程更改UI
+        findViewById(R.id.threadChangeUI).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ThreadChangeUI.class));
             }
         });
 
