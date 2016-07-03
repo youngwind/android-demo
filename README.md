@@ -45,7 +45,7 @@
 两种方式:HttpURLConnection vs DefaultHttpClient,区别与联系
 http://blog.csdn.net/iispring/article/details/51474529
 2. 学习如何使用第三方网络库请求网络请求(Android-async-http vs Volley)
-3. 学习如何解析json数据
+3. 学习如何解析json数据(原生JSONObject和谷歌开源的GSON)
 
 
 ## 4. WebView
