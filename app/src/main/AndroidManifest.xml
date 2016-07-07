@@ -39,7 +39,8 @@
         <activity android:name=".FileStorage.FileStorage" />
         <activity android:name=".SendNotification" />
         <activity android:name=".SQLite.DataBaseTest" />
-        <activity android:name=".ThreadTask.ThreadChangeUI"></activity>
+        <activity android:name=".ThreadTask.ThreadChangeUI" />
+        <activity android:name=".FileStorage.SharedPreferencesTest"></activity>
     </application>
 
 </manifest> <!-- 项目配置文件 -->

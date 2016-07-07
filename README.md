@@ -62,6 +62,7 @@ http://blog.csdn.net/iispring/article/details/51474529
 ## 6. 存储
 1. 学习对文件进行存储和读取
 2. 学习使用SQLite数据库(增删改查)
+3. 学习使用sharedPreferences,实现记住登录密码功能
 
 ## 7. 服务
 1. 使用子进程进行耗时操作

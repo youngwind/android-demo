@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.example.youngwind.helloworld.Broadcast.ListenNetWork;
 import com.example.youngwind.helloworld.FileStorage.FileStorage;
+import com.example.youngwind.helloworld.FileStorage.SharedPreferencesTest;
 import com.example.youngwind.helloworld.HttpRequest.AsyncHttp;
 import com.example.youngwind.helloworld.HttpRequest.HttpRequest;
 import com.example.youngwind.helloworld.JSBridgeAlert.JSBridgeAlert;
@@ -214,6 +215,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, DataBaseTest.class));
+            }
+        });
+
+        // 打开SharedPreferences
+        findViewById(R.id.useSharedPreferences).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SharedPreferencesTest.class));
             }
         });
     }
