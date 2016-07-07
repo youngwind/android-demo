@@ -77,7 +77,8 @@
                 android:id="@+id/showAsyncHttp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="启动另一个Activity,展示asycn-http库的用法" />
+                android:textAllCaps="false"
+                android:text="android-async-http库的用法" />
 
             <Button
                 android:id="@+id/openWebView"
