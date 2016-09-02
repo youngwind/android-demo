@@ -30,7 +30,7 @@
                 android:id="@+id/newActivityAndTransferParams"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="启动另一个Activity,并且传递参数过去" />
+                android:text="传递参数到下一个Activity" />
 
             <TextView
                 android:id="@+id/hometown"
@@ -41,19 +41,19 @@
                 android:id="@+id/btnStartBasicLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="启动另一个Activity,展示基本布局方式" />
+                android:text="基本布局方式" />
 
             <Button
                 android:id="@+id/operateView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="启动另一个Activity,展示如何直接操作View" />
+                android:text="如何直接操作View" />
 
             <Button
                 android:id="@+id/showRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="启动另一个Activity,展示RecyclerView列表的用法" />
+                android:text="RecyclerView列表的用法" />
 
             <Button
                 android:id="@+id/threadAndAsyncTask"
